@@ -1,0 +1,122 @@
+.site{
+  &-footer{
+    background: url("/wp-content/themes/glera/assets/images/footer/bg-footer.svg") top center no-repeat;
+    background-size: cover;
+    padding-top: 165px;
+    padding-bottom: 28px;
+    &:before, &:after{
+      content: '';
+      display: block;
+      position: absolute;
+    }
+    &:before{
+      width: 325px;
+      height: 403px;
+      background: url("/wp-content/themes/glera/assets/images/Homepage2х/bill_winter_bags_2.png") no-repeat;
+      background-size: contain;
+      left: 0;
+      bottom: 0;
+    }
+    &:after{
+      width: 260px;
+      height: 396px;
+      background: url("/wp-content/themes/glera/assets/images/Homepage2х/Subtract.png") no-repeat;
+      background-size: contain;
+      right: 0;
+      bottom: 0;
+    }
+    &__link{
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 25px;
+      text-align: center;
+      color: #31496B !important;
+    }
+    &__links{
+      display: flex;
+      justify-content: center;
+      max-width: 463px;
+      margin: 26px auto 0;
+      padding-left: 0;
+      li{
+        list-style-type: none;
+        margin-left: 30px;
+        &:first-of-type{
+          margin-left: 0;
+          &:before{
+            display: none;
+          }
+        }
+        &:before{
+          content: "";
+          display: block;
+          position: absolute;
+          left: -17px;
+          top: 50%;
+          width: 4px;
+          height: 4px;
+          background: #31496B;
+          border-radius: 50%;
+        }
+      }
+    }
+    &__social-links{
+      margin: 0 auto;
+    }
+    &__copyright{
+      margin-top: 20px;
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+      color: #364D6E;
+    }
+    .nav{
+      display: none;
+    }
+  }
+  &-info{
+    a{
+      display: block;
+      margin-bottom: 24px;
+    }
+  }
+}
+
+#button {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: .3s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 10;
+}
+#button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+@media screen and (max-width: 991.98px) {
+  #button{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767.98px){
+  .site{
+    &-footer{
+      padding-top: 13px;
+    }
+  }
+}

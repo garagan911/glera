@@ -1,0 +1,134 @@
+
+
+
+@keyframes textShadowAnim {
+  0%{
+    text-shadow: -2px 2px 1px $colorShadowH2Red;
+  }
+  50%{
+    text-shadow: -5px 5px 1px $colorShadowH2Red;
+  }
+  100%{
+    text-shadow: -2px 2px 1px $colorShadowH2Red;
+  }
+}
+
+@keyframes textShadowAnimHP {
+  0%{
+    text-shadow: 2px 2px 1px $colorShadowH2Red;
+  }
+  50%{
+    text-shadow: 4px 4px 0 $colorShadowH2Red;
+  }
+  100%{
+    text-shadow: 2px 2px 1px $colorShadowH2Red;
+  }
+}
+
+@keyframes textShadowH2BlueAnimHP {
+  0%{
+    text-shadow: 1px 1px 1px $colorShadowH2Blue;
+  }
+  50%{
+    text-shadow: 3px 3px 0 $colorShadowH2Blue;
+  }
+  100%{
+    text-shadow: 1px 1px 1px $colorShadowH2Blue;
+  }
+}
+
+@keyframes textShadowH2RedAnimHP {
+  0%{
+    text-shadow: 1px 1px 1px $colorShadowH2Red;
+  }
+  50%{
+    text-shadow: 3px 3px 0 $colorShadowH2Red;
+  }
+  100%{
+    text-shadow: 1px 1px 1px $colorShadowH2Red;
+  }
+}
+
+
+
+@media screen and (min-width: 992px){
+
+
+  @keyframes puls {
+    from {
+      transform: scale(1);
+      animation-timing-function: ease-out;
+    }
+
+    25% {
+      transform: scale(.9);
+      animation-timing-function: ease-in;
+    }
+
+    50% {
+      transform: scale(1.1);
+      animation-timing-function: ease-out;
+    }
+
+    75% {
+      transform: scale(.9);
+      animation-timing-function: ease-in;
+    }
+
+    to {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes flyThings {
+    0%{
+      transform: scale(1);
+    }
+    25%{
+      transform: scale(1.1);
+    }
+    50%{
+      transform: scale(.8);
+    }
+
+    75%{
+      transform: scale(1.1);
+    }
+    100%{
+      transform: scale(1);
+    }
+  }
+  @keyframes wows {
+    0%{
+      transform: translateY(0);
+    }
+    50%{
+      transform: translateY(-20px);
+    }
+    100%{
+      transform: translateY(0);
+    }
+  }
+  @keyframes rotateThings {
+    0%{
+      transform: rotate(0);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+}
+
+//@media screen and (max-width: 991.98px){
+//  @keyframes wows {
+//    0%{
+//      transform: translateY(0);
+//    }
+//    50%{
+//      transform: translateY(-15px);
+//    }
+//    100%{
+//      transform: translateY(0);
+//    }
+//  }
+//}

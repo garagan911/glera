@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06a86929-54e9-433c-8e01-0418e0e7b64a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/all-news-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/_about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/_default-page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/_dev.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/_game.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/_games.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/_jobs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/_life.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/_news-single.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/_page-all-news.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/_page-not-found.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/_wpml.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/development-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/game-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/games-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/jobs-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/life-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/news-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/template-parts/content-news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/template-parts/content-vacances.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/template-parts/jobs/form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/template-parts/news-content-none.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/glera/vacancy-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glera" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glera/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/about-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glera/about-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/archive-news.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glera/archive-news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glera/archive.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/WindMill/images/windmill_002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/WindMill/images/windmill_22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/WindMill/images/windmill_222.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/WindMill/windmill.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/WindMill/windmill.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/WindMill/windmill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/WindMill/windmill.spine" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/mascot_with_phone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/arm_2_l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/arm_2_patch_l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/arm_l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/arm_r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/arm_r_patch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/back_light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/biceps_r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/body.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/bubble_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/door_l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/door_r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/ear_l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/ear_r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/elbow_1_l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/elbow_2_l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/elbow_3_l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/elbow_r_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/elbow_r_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/elbow_r_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/eye_l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/eye_l_glow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/eye_r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/eye_r_glow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/eyes_glow_face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/finger_l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/finger_l_shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/gears.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/hand_l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/hand_l_sh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/hand_r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/hand_r_sh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/hat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/hat_glow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/head.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/key.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/key_shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/letter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/moustaches.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/moustaches_shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/neck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/robot_back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/robot_head_eye_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/robot_head_eye_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/robot_head_eyelid_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/robot_head_eyelid_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/robot_mouth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/robot_postament.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/shoulder_ball_l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/shoulder_ball_r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/shoulder_l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/shoulder_r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/table.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/triceps_l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/images/triceps_r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/robot_postman.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/robot_postman.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/robot_postman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/animations/robot_postman/robot_postman.spine" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/Alex 1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/GEOGRAPHY-bg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/Group.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/Mask Group.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/Vector.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/About Us.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/circle-video.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/cloud-under-title.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/glera-story-big.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/glera-value-bg-all-v2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/glera-value-bg-bottom-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/glera-value-bg-bottom.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/glera-value-cloud-road.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/glera-value-cloud.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/glera-value-elipse-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/glera-value-oll-bg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/glera-values.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/icon_energy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/logo-border.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/minsk1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/minsk2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/minsk3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/our-offices-bg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/popugai.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/sprite-glera-value.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/title-after.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/title-brfore.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/top-video-pic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/about/video-thing.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/after-btn-line.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/after-btn-line_red.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/alipse-big-v3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/alipse-big.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/arrow-baner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/arrow-red.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/arrows.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/balloon_meta_02 2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/banner-girl-v2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/banner-girl.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/before-btn-line.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/before-btn-line_red.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/bg-our-news.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/bg-who-we-are-top.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/bg-who-we-are-top_without-white-bg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/botle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/cat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/cloud-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/cloud.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/comming-soon1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/comming-soon2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/decor_boatanchor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/decor_island.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/elipse-big-v2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/ep6_ticket_preview 1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/explorer 2-mob.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/first-icon-who-we-are.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/geography-bg-transparent.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/geography-bg-without-blue.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/geography-blue-bg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/geography-bottom.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/geography-cloud-table.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/geography-left-bg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/geography-right-bg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/korporativ-minske.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/korporativ-vilnus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/logo-border.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/map.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/map1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/mini-maps.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/mob-menu-bg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/molniy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/oll-bg-things-gegraphy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/our-games-bg-bottom.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/our-games-bg-slider.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/our-games-cloud-mob.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/our-games-cloud-tablet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/our-games-ep8_sextant_preview 2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/our-games-ep8_telescope-tube_preview.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/our-games-explorer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/our-games-json-top.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/our-games-meta_3_final.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/our-games-stone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/our-games-vector-big.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/our-news-house.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/poses_t-short_2d 1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/poster-video.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/quest_cabelweathercannon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/road-voice.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/second-icon-who-we-are.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/social-sprite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/sprite-who-we-are.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/third-icon-who-we-are.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/ufo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/vector-banner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/vystavka.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/white-bg-our-games-big.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/white-bg-our-games.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/who-we-are-Rectangle-mob.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/who-we-are-Rectangle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/who-we-are-after-line.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/who-we-are-albert_fear.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/who-we-are-before-line.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/who-we-are-bg-whiht-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/who-we-are-bg-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/who-we-are-blue-thing.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/who-we-are-bottle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/who-we-are-ellipse-small.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/who-we-are-ellipse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/who-we-are-left-dec.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/who-we-are-right-dec.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/images/who-we-are-vector.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glera/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/prepros.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/about.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/home-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/_home-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/components/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glera/assets/style/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/video/img-9070_6mfqcyLx.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/video/img-9070_6mfqcyLx_1.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/video/img-9070_6mfqcyLx_920.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/video/img-9070_6mfqcyLx_origin (1).mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/assets/video/img-9070_6mfqcyLx_origin.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glera/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glera/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glera/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/home-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glera/home-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glera/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glera/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glera/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glera/single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/template-parts/content-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glera/template-parts/content-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/glera/template-parts/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/glera/template-parts/content.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/wp-content/themes/glera" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="2UzXnihtjau2vmcRs24K3t2EJrr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06a86929-54e9-433c-8e01-0418e0e7b64a" name="Changes" comment="" />
+      <created>1693943553152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693943553152</updated>
+      <workItem from="1693943555761" duration="666000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

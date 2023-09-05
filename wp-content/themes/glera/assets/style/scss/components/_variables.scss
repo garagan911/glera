@@ -1,0 +1,135 @@
+//Font Family
+@mixin body-font-settings{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+@mixin global-font-size{
+  font-size: 18px;
+  color: #6F7883;
+  @include respond(laptop_1050) {
+    font-size: 16px;
+  }
+}
+
+// Header
+
+$colorHeader: #31496B;
+
+@mixin headerNav{
+  font-family: 'Montserrat', sans-serif;
+  color: $colorHeader;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+
+// Header END
+
+// Home page
+
+@mixin home-title{
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 100px;
+  font-size: 120px;
+  letter-spacing: 2.50232px;
+  @include respond(desktopMin) {
+    font-size: 99px;
+  }
+
+  @include respond(tablet_1024) {
+    font-size: 90px;
+    line-height: 90px;
+  }
+  @include respond(tablet_992) {
+    font-size: 58px;
+    line-height: 64px;
+  }
+}
+
+
+$widthVideoBlockDesktop: 633px;
+$widthVideoBlockLaptop: 450px;
+$widthVideoBlockTablet: 333px;
+
+@mixin respond ($breakpoint) {
+
+  // $breakpoint is simply a variable that can have several values
+
+  @if $breakpoint==desktop2k {
+    @media only screen and (min-width: 1959.98px) {
+      @content;
+    }
+  }
+
+
+  @if $breakpoint==desktop {
+
+    // here `desktop` is the value of $breakpoint
+    // when call laptop, we mean the following piece of code
+
+    @media only screen and (min-width: 1401px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==desktopMin {
+    @media only screen and (max-width: 1400.98px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==laptop_1280 {
+    @media only screen and (max-width: 1280.98px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==laptop_1050 {
+    @media only screen and (max-width: 1050.98px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==tablet_1024 {
+    @media only screen and (max-width: 1023.98px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==tablet_992 {
+    @media only screen and (max-width: 991.98px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==tablet_768 {
+    @media only screen and (max-width: 767.98px) {
+      @content;
+    }
+  }
+}
+
+//global colors
+
+$colorShadowH2Blue: #B9DCF2;
+$colorShadowH2Red: #f74e47;
+
+@mixin psevdoElement {
+  content: '';
+  display: block;
+  position: absolute;
+}
+
+// Home page END
+
+$socIconWH: 44px;
+@mixin soc-icon {
+  width: $socIconWH;
+  height: $socIconWH;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+}

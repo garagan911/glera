@@ -1,0 +1,1276 @@
+h3.home {
+  font-size: 30px;
+  line-height: 54px;
+  text-transform: capitalize;
+  color: #31496B;
+}
+
+
+.home-top-banner {
+  //padding-bottom: 315px;
+  padding-bottom: 102px;
+  background: linear-gradient(180deg, rgba(218, 227, 224, 0.24) 0%, rgba(255, 254, 208, 0) 100%);
+  @include respond(tablet_1024) {
+    background: transparent;
+  }
+
+  &.show {
+    svg.top-balloon {
+      transform: scale(1);
+      //@include respond(laptop_1280) {
+      //  transform: scale(.75);
+      //}
+      //@include respond(laptop_1050) {
+      //  transform: scale(0.66);
+      //}
+      //@include respond(tablet_992) {
+      //  transform: scale(0.52);
+      //}
+    }
+  }
+
+  svg.top-balloon {
+    transform: scale(0);
+    transition: 1.7s cubic-bezier(0, .98, .01, .96);
+    transform-origin: top left;
+
+  }
+
+  &__text {
+    max-width: 654px;
+    position: relative;
+    padding-top: 113px;
+    @include respond(laptop_1280) {
+      padding-top: 20px;
+      padding-left: 30px;
+    }
+    @include respond(tablet_992) {
+      max-width: 400px;
+      padding-left: 30px;
+    }
+
+    @include respond(tablet_768) {
+      max-width: 100%;
+      text-align: center;
+      padding-left: 0;
+    }
+
+    h1 {
+      @include home-title;
+      margin: 0;
+      max-width: 100%;
+      color: #fff;
+      text-shadow: 5px 5px 0 rgba(247, 83, 47, 1);
+
+      img {
+        max-width: 57px;
+        position: relative;
+        left: -22px;
+        @include respond(tablet_1024) {
+          display: none;
+        }
+      }
+    }
+
+    &-caption {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: 38px;
+      line-height: 50px;
+      color: #fff;
+      margin-top: 30px;
+      @include respond(tablet_992) {
+        font-size: 28px;
+        line-height: 40px;
+        margin-top: 12px;
+      }
+    }
+
+    a {
+      //margin-top: 40px;
+      @include respond(tablet_992) {
+        margin-top: 18px;
+      }
+    }
+  }
+
+  &__ticket {
+    top: -70px;
+    right: -64px;
+    @include respond(laptop_1280) {
+      top: -117px;
+      right: -158px;
+    }
+    @include respond(laptop_1050) {
+      right: -118px;
+      top: -74px;
+      max-width: 200px;
+      width: 100%;
+    }
+  }
+
+  &__balloon {
+    bottom: -265px;
+    right: 184px;
+  }
+
+  &__grid {
+    display: grid;
+
+
+    @include respond(desktop) {
+      grid-template-columns: repeat(2, $widthVideoBlockDesktop);
+      // responsive code for Desktop viewport i.e. 1401px
+    }
+
+    @include respond(desktopMin) {
+      grid-template-columns: repeat(2, $widthVideoBlockLaptop);
+      // responsive code for Tablet viewport i.e. 1400.98px
+    }
+
+    @include respond(laptop_1050) {
+      grid-template-columns: repeat(2, 1fr);
+      // responsive code for tablet viewport i.e. 1050.98px
+    }
+
+    @include respond(tablet_768) {
+      display: block;
+      max-width: 500px;
+      margin: 0 auto;
+      // responsive code for tablet viewport i.e. 1050.98px
+    }
+
+    @include respond(desktop2k) {
+      grid-template-columns: repeat(2, $widthVideoBlockDesktop + 158px);
+    }
+
+    grid-template-rows: 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    justify-content: space-between;
+  }
+
+  &__container {
+    //padding-top: 326px;
+    padding-top: 220px;
+    @include respond(laptop_1050) {
+      padding-top: 170px;
+    }
+    @include respond(tablet_992) {
+      padding-top: 120px;
+    }
+  }
+
+  &__video {
+    @include respond(laptop_1280) {
+      right: 20px;
+    }
+    @include respond(tablet_768) {
+      margin-top: 40px;
+    }
+
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: -10px;
+      right: -10px;
+
+
+      @include respond(desktop) {
+        width: $widthVideoBlockDesktop;
+        height: $widthVideoBlockDesktop;
+        // responsive code for Desktop viewport i.e. 1401px
+      }
+
+      @include respond(desktopMin) {
+        width: $widthVideoBlockLaptop;
+        height: $widthVideoBlockLaptop;
+        // responsive code for Tablet viewport i.e. 1400.98px
+      }
+
+      @include respond(laptop_1050) {
+        width: $widthVideoBlockTablet;
+        height: $widthVideoBlockTablet;
+        // responsive code for tablet viewport i.e. 1050.98px
+      }
+      border-radius: 50% 0 50% 50%;
+      background: #99D8D0;
+
+      @include respond(desktop2k) {
+        width: $widthVideoBlockDesktop + 158px;
+        height: $widthVideoBlockDesktop + 158px;
+      }
+
+    }
+
+    &-block {
+      position: relative;
+      margin-left: auto;
+
+
+      @include respond(desktop) {
+        width: $widthVideoBlockDesktop;
+        height: $widthVideoBlockDesktop;
+        // responsive code for desktop viewport i.e. 1401px
+      }
+
+      @include respond(desktopMin) {
+        width: $widthVideoBlockLaptop;
+        height: $widthVideoBlockLaptop;
+        // responsive code for tablet viewport i.e. 1400.98px
+      }
+
+      @include respond(laptop_1050) {
+        width: $widthVideoBlockTablet;
+        height: $widthVideoBlockTablet;
+        // responsive code for tablet viewport i.e. 1050.98px
+      }
+
+      @include respond(desktop2k) {
+        width: $widthVideoBlockDesktop + 158px;
+        height: $widthVideoBlockDesktop + 158px;
+      }
+      border-radius: 50% 0 50% 50%;
+      overflow: hidden;
+
+      video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        border-radius: 50% 0 50% 50%;
+      }
+
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        //background: rgba(185, 220, 242, 0.1);
+        z-index: 2;
+        border-radius: 50% 0 50% 50%;
+      }
+    }
+
+    .vector {
+      top: -32px;
+      right: -36px;
+      @include respond(desktopMin) {
+        max-width: 255px;
+        // responsive code for tablet viewport i.e. 1400.98px
+      }
+      @include respond(laptop_1280) {
+        display: none;
+      }
+    }
+  }
+
+  &__girl-lasso {
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    @include respond(tablet_992) {
+      bottom: -59px;
+      left: -125px;
+    }
+
+    .pic {
+      &-1, &-2, &-3 {
+        z-index: 4;
+      }
+
+      &-1 {
+        bottom: -280px;
+        left: 0;
+        @include respond(laptop_1280) {
+
+        }
+        @include respond(laptop_1050) {
+          position: relative;
+          max-width: 173px;
+          bottom: 49px;
+          left: 156px;
+          // responsive code for tablet viewport i.e. 1050.98px
+        }
+        @include respond(tablet_768) {
+          bottom: 30px;
+        }
+      }
+
+      &-2 {
+        //bottom: -147px;
+        //right: -26px;
+        bottom: -52%;
+        right: 29%;
+
+        @include respond(laptop_1050) {
+          bottom: -100px;
+          right: -145px;
+          max-width: 78px;
+          transform: rotate(12deg);
+          // responsive code for tablet viewport i.e. 1050.98px
+        }
+        @include respond(tablet_768) {
+          bottom: -71px;
+          right: -164px;
+          max-width: 71px;
+          transform: rotate(340deg);
+        }
+      }
+
+      &-3 {
+        //bottom: -270px;
+        //right: -200px;
+        bottom: -66%;
+        right: -29px;
+        max-width: 117px;
+        @include respond(laptop_1050) {
+          bottom: -185px;
+          right: -281px;
+          max-width: 88px;
+          // responsive code for tablet viewport i.e. 1050.98px
+        }
+
+        @include respond(tablet_768) {
+          bottom: -70px;
+          right: -281px;
+          max-width: 77px;
+        }
+      }
+    }
+  }
+}
+
+#hp-video-banner, .glera-story__video-top-about, .glera-story__cloud, .wrap-btn-hover-0, .wrap-anim-text {
+  transform: scale(0);
+}
+.split-text {
+}
+
+#girl-balloon {
+  animation: 3s cubic-bezier(0.63, 0.01, 0.39, 1.1) 0s normal none infinite running wows;
+}
+
+.stone, .mini-maps, .form-dev__balloon {
+  animation: 6s cubic-bezier(0.63, 0.01, 0.39, 1.1) 0s normal none infinite running wows;
+}
+
+.circle {
+  &-1, &-3, &-5 {
+    animation: 4s flyThings forwards infinite;
+  }
+
+  &-2, &-4, &-6 {
+    animation: 6s flyThings forwards infinite;
+  }
+}
+
+//.our-games__telescope, .home-top-banner__ticket{
+.our-games__telescope {
+  animation: 5s cubic-bezier(0.63, 0.01, 0.39, 1.1) 0s normal none infinite running wows;
+}
+
+.our-games__sextant {
+  animation: 7s cubic-bezier(0.63, 0.01, 0.39, 1.1) 0s normal none infinite running wows;
+}
+
+.who-we-are {
+  padding-top: 150px;
+  padding-bottom: 222px;
+
+  .mascot {
+    max-width: 350px;
+    margin: 0 auto -150px;
+  }
+
+  &__icons {
+    background: url("/wp-content/themes/glera/assets/images/sprite-who-we-are.svg") no-repeat;
+    display: none;
+
+    &.icon {
+      &-1 {
+        top: 0;
+        left: 0;
+        width: 60px;
+        height: 62px;
+        background-position: -25px -287px;
+        animation: 40s linear 0s normal none infinite running rotateThings;
+      }
+
+      &-2 {
+        top: -72px;
+        right: 30%;
+        width: 35px;
+        height: 35px;
+        background-position: -18px 0;
+        animation: 15s flyThings forwards infinite;
+      }
+
+      &-3 {
+        bottom: -22px;
+        left: 0;
+        width: 22px;
+        height: 22px;
+        background-position: -31px -208px;
+        animation: 15s flyThings forwards infinite;
+      }
+
+      &-4 {
+        bottom: -22px;
+        right: 0;
+        width: 57px;
+        height: 57px;
+        background-position: -9px -94px;
+        animation: 10s linear 0s normal none infinite running rotateThings;
+      }
+    }
+  }
+
+  &__title {
+    span {
+      background: #F74C47;
+    }
+  }
+
+  &__text-box {
+    background: #FFFFFF;
+    box-shadow: -23px 22px 99px rgba(195, 195, 195, 0.25);
+    padding: 30px 0 30px 30px;
+    border-radius: 50px;
+    z-index: 1;
+
+    &:before {
+      width: 94%;
+      height: 100%;
+      background: #FFFFFF;
+      border-radius: 50px;
+      left: 7%;
+      top: 0;
+      transform: skewX(10deg);
+      z-index: -1;
+      @include psevdoElement;
+    }
+  }
+
+  &__description {
+    max-width: 1000px;
+    margin: 19px auto 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6F7883;
+
+    span {
+      font-weight: 700;
+      color: #F7534D;
+    }
+  }
+
+  &__caption {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #31496B;
+    text-align: center;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 89px;
+    grid-row-gap: 0;
+    margin-top: 80px;
+  }
+
+  &__item {
+    text-align: center;
+
+    &-1, &-2, &-3 {
+      margin: 7px auto 0;
+    }
+
+    &-1 {
+      max-width: 362px;
+
+      svg {
+        position: relative;
+        top: 8px;
+      }
+    }
+
+    &-2 {
+      position: relative;
+
+      &:after, &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        height: 35px;
+
+      }
+
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: -75%;
+        top: 17px;
+        height: 35px;
+        width: 249px;
+        background: url("/wp-content/themes/glera/assets/images/who-we-are-before-line.svg") no-repeat;
+      }
+
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        right: -75%;
+        top: 72px;
+        height: 35px;
+        width: 261px;
+        background: url("/wp-content/themes/glera/assets/images/who-we-are-after-line.svg") no-repeat;
+      }
+
+      p {
+        max-width: 303px;
+      }
+    }
+
+    &-3 {
+      max-width: 395px;
+    }
+
+    h4 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 34px;
+      color: #31496B;
+      margin-top: 40px;
+    }
+
+    p {
+      color: #6F7883;
+
+      span {
+        color: #31496B;
+        font-weight: 600;
+      }
+    }
+  }
+
+  &_wrap-btn {
+    text-align: center;
+    padding-top: 80px;
+  }
+}
+
+.our-games {
+  background: linear-gradient(180.79deg, #ECF8FF 16.57%, #FFFFFF 62.22%);
+  padding-bottom: 540px;
+
+  &__wrap-line {
+    width: 100%;
+    height: 100%;
+    background: url("/wp-content/themes/glera/assets/images/bg-who-we-are-top_without-white-bg.svg") right top no-repeat;
+    background-size: cover;
+    z-index: 3;
+  }
+
+  &-bg-white {
+    height: 100%;;
+    background: url("/wp-content/themes/glera/assets/images/who-we-are-bg-whiht-1.svg") right 0/cover no-repeat;
+  }
+
+  &__bottom-blue {
+    bottom: 22%;
+    transform: rotate(-5deg);
+    z-index: 1;
+  }
+
+  &__bottom {
+    height: 750px;
+  }
+
+  .cannon {
+    z-index: 4;
+  }
+
+  &__explorer-top {
+    right: 10%;
+    top: 2%;
+    z-index: 2;
+
+  }
+
+  &__line-bg {
+    top: 17%;
+  }
+
+  &__cloud-wrap-top {
+    display: flex;
+    align-items: center;
+    //top: -130px;
+    //right: 62%;
+    top: -82px;
+    //right: 136px;
+    right: 265px;
+    width: 549px;
+    height: 360px;
+    background: url("/wp-content/themes/glera/assets/images/who-we-are-Rectangle.svg") no-repeat;
+    background-position-x: -23px;
+
+    p {
+      max-width: 249px;
+      text-align: center;
+      left: 24%;
+      top: 32%;
+      position: absolute;
+
+      a {
+        color: #F74C47;
+        font-weight: 600;
+        //display: block;
+      }
+    }
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 330px;
+    background: url('/wp-content/themes/glera/assets/images/our-games-bg-bottom.svg') center top no-repeat;
+    background-size: cover;
+    z-index: 0;
+  }
+
+  &__container {
+    z-index: 4;
+  }
+
+  .albert {
+    right: 0;
+    top: 0;
+  }
+
+  &__sextant {
+    left: -150px;
+    top: 150px;
+    max-width: 124px;
+  }
+
+  &__telescope {
+    right: -150px;
+    top: 62%;
+    max-width: 132px;
+  }
+
+  &__json-wrap {
+    position: relative;
+    margin-top: 77px;
+    text-align: center;
+    z-index: 1;
+
+
+    .mahjong__animation {
+      max-width: 550px;
+    }
+
+    //&:before{
+    //  content: '';
+    //  display: block;
+    //  width: 100%;
+    //  height: 100%;
+    //  position: absolute;
+    //  left: 50%;
+    //  transform: translate(-50%);
+    //  background: url("/wp-content/themes/glera/assets/images/our-games-vector-big.svg") center no-repeat;
+    //  background-size: 100%;
+    //  z-index: -1;
+    //}
+  }
+
+  &__h3 {
+    margin-top: 17px;
+  }
+
+  &__text {
+    max-width: 881px;
+    margin: 0 auto;
+  }
+
+  &__gaegu {
+    font-size: 41px;
+    line-height: 51px;
+    letter-spacing: -0.08em;
+    text-transform: lowercase;
+    left: 0;
+    top: 130px;
+
+    img {
+      &.arrow {
+        bottom: -102px;
+        right: 56px;
+      }
+
+      &.stone {
+        top: -191px;
+        left: 56px;
+        max-width: 106px;
+      }
+    }
+  }
+
+  .slick {
+    &-img {
+      margin: 0 auto -30px;
+      max-width: 338px;
+      width: 100%;
+    }
+
+    &-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 34px;
+      color: #31496B;
+      margin-top: 50px;
+    }
+
+    &-text {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 18px;
+      line-height: 26px;
+      color: #6F7883;
+      max-width: 418px;
+      margin: 9px auto 0;
+    }
+  }
+
+  .controls {
+    width: 100%;
+    top: 30%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .wrap-slider {
+    margin-top: 25px;
+  }
+
+  &__explorer {
+    bottom: -440px;
+    left: -100px;
+    z-index: 1;
+    img{
+      //max-width: 260px;
+    }
+  }
+
+  &__meta {
+    bottom: 220px;
+    right: 20px;
+    z-index: 1;
+    max-width: 351px;
+  }
+
+  &__cloud-wrap {
+    display: flex;
+    align-items: center;
+    top: -130px;
+    left: 152px;
+    width: 549px;
+    height: 360px;
+    background: url("/wp-content/themes/glera/assets/images/cloud.svg") no-repeat;
+    background-position-x: -23px;
+    background-position-y: 23px;
+
+    p {
+      max-width: 264px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 18px;
+      line-height: 28px;
+
+      a {
+        font-weight: 600;
+        color: #F74C47;
+        transition: .3s;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+
+  &__container-fluid {
+    //overflow-x: hidden;
+  }
+
+  &__bg-slider-things {
+    bottom: 16%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+.mini-maps {
+  max-width: 165px;
+}
+.geography {
+  padding-top: 100px;
+
+  &__title {
+    span {
+      background: #B9DCF2;
+    }
+
+    .mini-maps {
+      left: -14%;
+      top: 100px;
+    }
+  }
+
+  &__description {
+    max-width: 700px;
+    margin: 19px auto 0;
+    text-align: center;
+  }
+
+  &__map-wrapper {
+    margin-top: 106px;
+
+    svg {
+      max-width: 100%;
+    }
+
+    .boatanchor {
+      //top: -6%;
+      //right: 14%;
+      top: -10%;
+      right: 29%;
+      max-width: 100px;
+    }
+
+    .cat {
+      bottom: 88px;
+      right: 91px;
+    }
+
+    .island {
+      top: 39%;
+      left: 43%;
+    }
+
+    .ufo {
+      top: 34%;
+      right: 16%;
+    }
+  }
+
+  &__explorer {
+    top: -27%;
+    left: 10%;
+    z-index: 2;
+  }
+
+  &__cloud-wrap {
+    display: flex;
+    align-items: center;
+    top: -55px;
+    left: 292px;
+    width: 549px;
+    height: 335px;
+    background: url("/wp-content/themes/glera/assets/images/cloud-2.svg") no-repeat;
+    background-position-x: -53px;
+    background-position-y: 10px;
+
+    p {
+      text-align: center;
+      max-width: 293px;
+      margin: 0 auto;
+    }
+
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: -4%;
+      bottom: 48px;
+      width: 74px;
+      height: 33px;
+      background: url("/wp-content/themes/glera/assets/images/road-voice.svg") 62% 39% no-repeat;
+      background-size: 350%;
+    }
+  }
+
+  &__oll-bg-things {
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+
+  &__bottom {
+    height: 550px;
+    margin-top: 160px;
+    z-index: 0;
+
+    &-blue {
+      //bottom: 34%;
+      //left: 0;
+      z-index: 1;
+    }
+
+    &-bg-white {
+      height: 100%;
+      //background: url("/wp-content/themes/glera/assets/images/white-bg-our-game.svg") left -300px / cover no-repeat;
+      background: url("/wp-content/themes/glera/assets/images/white-bg-our-games-big.svg") left 0 / cover no-repeat;
+    }
+  }
+
+  &__wrap-line {
+    width: 100%;
+    height: 100%;
+    background: url("/wp-content/themes/glera/assets/images/geography-bg-transparent.svg") left top no-repeat;
+    background-size: cover;
+    z-index: 3;
+  }
+}
+
+.spine-player{
+  position: relative;
+  &:before{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    content: '';
+  }
+}
+
+.our-news {
+  background: linear-gradient(180.79deg, #FFF8F4 16.57%, #FFFFFF 62.22%);
+  margin-bottom: 150px;
+
+  &__house {
+    top: -390px;
+    right: 0;
+    max-width: 340px;
+    display: none;
+  }
+
+  &__bg {
+    top: 28%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &__slider {
+    //margin-top: 113px;
+    &-item {
+      text-align: center;
+      padding-top: 113px;
+
+      &.first {
+        &:before, &:after {
+          content: '';
+          display: block;
+          position: absolute;
+          border-radius: 50%;
+        }
+
+        &:after {
+          width: 76px;
+          height: 76px;
+          background: #FBEADF;
+          bottom: 38%;
+          right: 29%;
+          z-index: -1;
+        }
+
+        &:before {
+          top: 14%;
+          left: 15%;
+          width: 133px;
+          height: 133px;
+          background: #B9DCF2;
+        }
+      }
+    }
+
+    &-wrap {
+
+    }
+
+    .slick {
+      &-img {
+        width: 257px;
+        height: 257px;
+        background: #B9DCF2;
+        transform: rotate(45deg);
+        transform-origin: center;
+        border-radius: 50px;
+        margin: 33px auto 33px;
+        //box-shadow: -23px 22px 99px rgba(195, 195, 195, 0.25);
+        overflow: hidden;
+
+        img {
+          transform: rotate(-134deg);
+          max-width: 133%;
+          position: absolute;
+          top: -18%;
+          left: -16%;
+        }
+      }
+
+      &-title {
+        font-size: 22px;
+        line-height: 34px;
+        font-weight: 700;
+        margin-top: 90px;
+        text-transform: capitalize;
+        color: #31496B;
+      }
+
+      &-text {
+        max-width: 363px;
+        margin: 5px auto 0;
+      }
+    }
+
+  }
+
+  .controls-news {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 34.7%;
+  }
+}
+
+.page-template-home-page{
+  .our-news__house{
+    display: block;
+  }
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+
+  &_1 {
+    width: 14px;
+    height: 14px;
+    background: #FFE874;
+    left: -140px;
+    top: -200px;
+  }
+
+  &_2 {
+    width: 20px;
+    height: 20px;
+    background: #CEF3EE;
+    left: 260px;
+    top: -122px;
+  }
+
+  &_3 {
+    width: 22px;
+    height: 22px;
+    background: #CEF3EE;
+    left: -155px;
+    top: 287px;
+  }
+
+  &_4 {
+    width: 14px;
+    height: 14px;
+    background: #FFE874;
+    right: 170px;
+    top: 120px;
+  }
+
+  &_5 {
+    width: 20px;
+    height: 20px;
+    background: #CEF3EE;
+    right: -34px;
+    top: 140px;
+  }
+
+  &_6 {
+    width: 43px;
+    height: 43px;
+    background: #E6EDED;
+    right: 100px;
+    top: 320px;
+  }
+}
+
+.slick-track {
+  display: flex;
+  align-items: flex-end;
+}
+.our-games__z-index{
+  z-index: 4;
+}
+
+//.our-games-girl{
+//transform: scale(1.8) translateX(25px);
+//  width: 1006px;
+//  height: 751px;
+//  position: absolute;
+//}
+
+//.#circle-path {
+//  animation: c-dashed-line-path 3s ease-in-out infinite alternate;
+//  fill: none;
+//  stroke: #31CC89;
+//  stroke-dasharray: 940; /* this is the entire length of the line */
+//  stroke-dashoffset: 940; /* this is the entire length of the line */
+//  stroke-width: 10;
+//}
+//
+//.c-dashed-line__dash {
+//  fill: none;
+//  stroke: #FFFFFF; /* this must match the background color */
+//  stroke-dasharray: 16 10; /* draws a 10px dash line with a 16px gap between */
+//  stroke-width: 12; /* make the dashed line slightly bigger than the one it's covering */
+//}
+.line-home-top{
+  transform: translateX(64px);
+}
+@media screen and (min-width: 768px) {
+  .title-about-us, .title-our-games, .title-geography, .title-our-news, .title-our-office, .glera-moment-title-anim, .title-games-downloads, .title-playstoree, .glera-moment__subtitle {
+    svg {
+      max-height: 100px;
+    }
+  }
+  .title-time-travel {
+    svg {
+      max-height: 196px;
+    }
+  }
+  .title-about-us, .title-our-games, .title-geography, .title-our-news, .title-our-office, .title-time-travel, .glera-moment-title-anim, .title-games-downloads, .title-playstoree, .glera-moment__subtitle {
+    display: block;
+    margin: 0 auto;
+  }
+  .subtitle {
+    display: none;
+  }
+  .title-fade-home, .title-fade-about{
+    position: relative;
+    left: -2%;
+    top: -5%;
+  }
+  .title-page-about-anim, .title-page-hp-anim{
+    transform: scale(1.22);
+  }
+  #line-top-home {
+    max-width: 813px;
+    right: 55%;
+    bottom: 20%;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .title-about-us, .title-our-games, .title-geography, .title-our-news, .title-page-hp-anim, .title-our-office, .title-time-travel, .title-page-about-anim, .glera-life__title-anim, .glera-moment-title-anim, .title-games-downloads, .title-playstoree, .glera-moment__subtitle, .title-page-jobs-anim,.title-values {
+    display: none;
+  }
+  .subtitle {
+    display: block;
+  }
+}
+
+
+@keyframes c-dashed-line-path {
+  from {
+    stroke-dashoffset: 940;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@media screen and (min-width: 1702px) {
+  .our-games {
+    //padding-top: 540px;
+    padding-bottom: 540px;
+
+    &:before {
+      height: 600px;
+    }
+
+    .cannon {
+      //left: 0;
+      //top: -630px;
+    }
+
+    &__explorer {
+      bottom: -440px;
+    }
+  }
+}
+
+@media screen and (min-width: 1921px) {
+
+
+  .geography {
+    &__map-wrapper {
+      .boatanchor {
+        top: -7%;
+        right: 20%;
+      }
+
+      .cat {
+        bottom: 90px;
+        right: 191px;
+      }
+
+      .island {
+        left: 42%;
+        top: 37%;
+      }
+
+      .ufo {
+        top: 33%;
+        right: 21%;
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width: 2268px) {
+  //.geography__bottom-blue {
+  //  bottom: 24%;
+  //}
+  .our-games::after {
+    height: 385px;
+  }
+}
+
+@media screen and (min-width: 2360px) {
+  //.geography__bottom-blue {
+  //  bottom: 21%;
+  //}
+}
+
+//@media screen and (min-width: 2436px){
+//  .geography__bottom-blue {
+//    bottom: 19%;
+//    transform: rotate(2deg);
+//  }
+//}

@@ -1,0 +1,53 @@
+.page-not-found{
+  padding-top: 227px;
+  background: linear-gradient(180deg, #FFF8F4 0.14%, #fff 106.09%);
+  min-height: calc(100vh - 482px);
+  &-things{
+    top: 15%;
+    max-width: 100%;
+    width: 100%;
+  }
+  &-title{
+    font-style: italic;
+    font-weight: 900;
+    font-size: 66px;
+    line-height: 115px;
+    text-align: center;
+    letter-spacing: 2.50232px;
+    color: #31496B;
+    text-transform: uppercase;
+  }
+  &-caption-title{
+    font-family: "Montserrat",sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 115px;
+    text-align: center;
+    letter-spacing: 2.50232px;
+    text-transform: uppercase;
+    color: #FF9753;
+    text-shadow: 1px 4px 1px #F74C47;
+  }
+  &-btn{
+    margin-top: 33px;
+  }
+  &-figure{
+    text-align: center;
+    margin-top: 93px;
+    margin-bottom: 74px;
+    img{
+      max-width: 276px;
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px){
+  .page-not-found {
+    padding-top: 121px;
+    &-title {
+      font-size: 45px;
+      line-height: 60px;
+    }
+  }
+}

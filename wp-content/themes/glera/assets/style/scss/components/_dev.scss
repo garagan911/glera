@@ -1,0 +1,400 @@
+
+.article__title-h2, .development-director__title{
+  text-transform: uppercase;
+  color: #31496B;
+  font-style: italic;
+}
+.development-director__title{
+  margin-bottom: 30px;
+}
+.article{
+  max-width: 874px;
+  margin: 0 auto;
+  &__title-h2{
+    font-weight: 700;
+    text-align: initial;
+    &:first-of-type{
+      margin-top: 0;
+    }
+  }
+  &__list{
+    font-weight: 500;
+    margin-left: 0;
+    padding-left: 17px;
+    color: #6F7883;
+  }
+  &__nav-soc{
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &__soc-link{
+    &s{
+      margin-left: 16px;
+    }
+    @include soc-icon;
+    background-image: url("/wp-content/themes/glera/assets/images/jobs/dev-soc-sprite.svg");
+    &.in{
+      background-color: #006699;
+      background-position: 11px 10px;
+    }
+    &.facebook{
+      background-color: #0085FF;
+      background-position: 11px -26px;
+    }
+    &.instagram{
+      background-color: #F75047;
+      background-position: 11px -63px;
+    }
+    &.vk{
+      background-color: #5181B8;
+      background-position: 11px -101px;
+    }
+  }
+}
+
+.development-director{
+  background: linear-gradient(180deg, #FFF8F4 0.14%, #FCFEFF 106.09%);
+  z-index: 1;
+  &__title{
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 2.50232px;
+    &-caption{
+      text-align: center;
+      max-width: 850px;
+      margin: 0 auto;
+      a{
+        color: #F74C47 !important;
+      }
+    }
+  }
+  &__top-things{
+    top: 7%;
+    left: 47%;
+  }
+}
+.jobs-bg{
+  bottom: -1px;
+}
+.form-dev{
+  background-color: #B9DCF2;
+  &__pig{
+    top: 0;
+  }
+}
+.development-director__container{
+  margin-bottom: 45px;
+}
+
+.single_job_listing .job_description{
+  margin: 0 auto;
+}
+.job-listing-meta.meta{
+  display: none;
+}
+.single_job_listing{
+  padding-bottom: 85px;
+}
+.vacancies-template{
+  padding-top: 140px;
+  //padding-top: 289px;
+  background: linear-gradient(180deg,#fff8f4 .14%,#fff 59.09%);
+}
+.dev-mascot-fly{
+  max-width: 320px;
+}
+@media screen and (min-width: 1921px){
+  .dev{
+    &-mascot-fly{
+      left: -9%;
+    }
+    &-girl{
+      right: -4%;
+    }
+  }
+}
+@media screen and (max-width: 1920.98px) and (min-width: 1200px){
+  .dev{
+    &-mascot-fly{
+      left: -14%;
+    }
+    &-girl{
+      right: -10%;
+    }
+  }
+}
+@media screen and (min-width: 1024px){
+  .development-director{
+    &__title{
+      font-size: 60px;
+      line-height: 87px;
+    }
+  }
+  .article{
+    margin-top: 108px;
+    &__title-h2{
+      margin-top: 70px;
+      font-size: 25px;
+      line-height: 30px;
+    }
+  }
+}
+@media screen and (min-width: 1200px){
+  .development-director{
+    padding-top: 289px;
+    padding-bottom: 84px;
+    &__title{
+      &-caption{
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 20px;
+      }
+    }
+    &__btn{
+      margin-top: 43px;
+      margin-bottom: 93px;
+      a.btn{
+        padding: 19px 40px;
+      }
+    }
+  }
+  .article{
+    margin-top: 45px;
+    &__list, &__text, &__nav-soc{
+      margin-top: 23px;
+      font-size: 20px;
+      line-height: 26px;
+      color: #6F7883;
+      li{
+        margin-top: 27px;
+      }
+    }
+  }
+  .form-dev{
+    padding-top: 22vw;
+    padding-bottom: 23vw;
+    margin-bottom: 36px;
+    &__title{
+      font-size: 42px;
+      line-height: 40px;
+    }
+    &__bg-things{
+      top: 33%;
+    }
+    &__balloon{
+      position: relative;
+      bottom: -170px;
+    }
+  }
+  .dev{
+    &-mascot-fly{
+      top: 4%;
+      //width: 350px;
+      //height: 350px;
+      background: none;
+    }
+    &-check-list, &-girl, &-munki{
+      background-image: url("/wp-content/themes/glera/assets/images/jobs/dev-sprite.svg");
+      background-repeat: no-repeat;
+    }
+    &-girl{
+      top: 4%;
+      //width: 232px;
+      //height: 300px;
+      //background-position: -
+      background: none;
+      max-width: 229px;
+
+    }
+    &-convert{
+      bottom: 56%;
+      right: -9%;
+     .spine-player{
+       width: 345px;
+       height: 277px;
+      }
+    }
+    &-book-fly{
+      left: -14%;
+      bottom: 40%;
+      width: 267px;
+      height: 351px;
+    }
+    &-check-list{
+      bottom: 23%;
+      right: 0;
+      width: 151px;
+      height: 152px;
+      background-position: -80px 56%;
+    }
+    &-munki{
+      bottom: -9%;
+      right: 0;
+      width: 319px;
+      height: 425px;
+      background-position: 0 0;
+      z-index: 1;
+    }
+  }
+}
+@media screen and (max-width: 1199.98px) and (min-width: 1024px){
+  .vacancies-template {
+    padding-top: 189px;
+  }
+  .form-dev__pig {
+    top: 0;
+    max-width: 300px;
+    height: 220px;
+  }
+
+  .form-dev {
+    padding-top: 230px;
+  }
+  .development-director{
+    &__title{
+      &-caption{
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .form-dev {
+    padding-top: 22vw;
+    padding-bottom: 23vw;
+    margin-bottom: 36px;
+  }
+}
+@media screen and (max-width: 1400px){
+  .form-dev {
+    &__balloon{
+      img{
+        max-width: 105px;
+        margin-top: -100px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1400px) and (min-width: 1199.98px){
+  .form-dev__pig {
+    top: -3%;
+  }
+}
+@media screen and (max-width: 1199.98px){
+  .development-director{
+    padding-top: 152px;
+    padding-bottom: 106px;
+    &__btn{
+        margin-top: 43px;
+      a{
+        margin-top: 0;
+      }
+    }
+  }
+  .development-director{
+    &__title{
+      &-caption{
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .dev{
+    &-mascot-fly, &-check-list, &-girl, &-munki, &-book-fly, &-convert{
+      display: none;
+    }
+  }
+  .article{
+    ul{
+      li{
+        margin-top: 20px;
+      }
+    }
+    &__text{
+      margin-top: 14px;
+    }
+  }
+
+  .article__nav-soc{
+    margin-top: 13px;
+  }
+  .form-dev__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .form-dev__balloon img {
+    margin-top: 60px;
+  }
+
+}
+@media screen and (max-width: 1050px){
+  .development-director{
+    &__title-caption{
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+}
+@media screen and (max-width: 1023.98px){
+  .development-director{
+    &__title{
+      font-weight: 900;
+      font-size: 30px;
+      line-height: 34px;
+    }
+  }
+  .article{
+    margin-top: 81px;
+    h2{
+      font-size: 24px;
+      line-height: 30px;
+    }
+    ul{
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 400;
+    }
+    &__title-h2{
+      margin-top: 45px;
+    }
+
+    &__nav-soc{
+      margin-top: 33px;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 26px;
+      color: #6F7883;
+    }
+    &__soc-links{
+      margin-left: 0 !important;
+      margin-top: 16px !important;
+    }
+    .form-dev__title{
+      font-size: 32px;
+      line-height: 40px;
+      letter-spacing: 1px;
+    }
+    &__nav-title{
+      display: block;
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+  .position-top-volny, .position-bottom-volny{
+    max-width: unset;
+    width: auto;
+  }
+  .form-dev__pig {
+    top: -5%;
+    max-width: 300px;
+  }
+  .form-dev {
+    padding-top: 130px;
+    padding-bottom: 230px;
+    //margin-bottom: 50px;
+  }
+  .form__submit{
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+
+}

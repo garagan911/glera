@@ -1,0 +1,143 @@
+.glera-games{
+  z-index: 1;
+}
+
+.mahjong{
+  background: linear-gradient(181.16deg, #ECF8FF 20.83%, #FFFFFF 78.05%);
+  &__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.glera-games__animation-booksfly{
+  top: 5%;
+  left: 58%;
+}
+
+.coming-soon-riddleroad{
+  left: -54%;
+  bottom: -5%;
+}
+.coming-soon-retrotrip{
+  right: -19%;
+  bottom: -25%;
+  img{
+    width: 460px;
+    height: 264px;
+    max-width: unset;
+  }
+}
+.mahjong{
+  &__pic{
+    width: 124px;
+    //height: 112px;
+    //background: url("/wp-content/themes/glera/assets/images/games/mahjong-sprite.svg") no-repeat;
+    z-index: 1;
+  }
+  &__pic-1{
+    bottom: 20%;
+    left: -19%;
+    //background-position: 0 -121px;
+  }
+  &__pic-2{
+    top: 26%;
+    right: -10%;
+    width: 98px;
+    //background-position: 0 -2px;
+  }
+  &__title-pic{
+    margin: 0 auto;
+    display: block;
+    top: -40px;
+  }
+}
+@media screen and (min-width: 1920px){
+  .mahjong{
+    padding-top: 530px;
+    padding-bottom: 520px;
+  }
+  .glera-games {
+    &__animation-booksfly{
+      top: 5%;
+      left: 50%;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .coming-soon{
+    padding-bottom: 300px;
+    &__grid{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-column-gap: 147px;
+      grid-row-gap: 25px;
+    }
+    &__text{
+      align-self: center;
+      &-title{
+        font-size: 32px;
+        line-height: 54px;
+        text-transform: capitalize;
+        color: #31496B;
+      }
+      p{
+        font-size: 20px;
+        line-height: 26px;
+        color: #6F7883;
+        margin-top: 2px;
+      }
+    }
+    &__pic{
+      width: 500px;
+    }
+  }
+}
+@media screen and (min-width: 992px){
+  .glera-games{
+    padding-top: 260px;
+    padding-bottom: 193px;
+    .mascot{
+      top: 14%;
+      left: 31%;
+      width: 560px;
+      height: 700px;
+    }
+  }
+  .mahjong{
+    &__animation-bob{
+      left: 12%;
+      top: -8%;
+    }
+    &__animation-fontan{
+      bottom: 8%;
+      right: 12%;
+    }
+    &__text{
+      max-width: 420px;
+      h3{
+        font-size: 32px;
+        line-height: 54px;
+        text-transform: capitalize;
+        color: #31496B;
+      }
+      p{
+        margin-top: 2px;
+      }
+      a{
+        margin-top: 29px;
+      }
+    }
+    &__bg-line{
+      top: 29%;
+    }
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1919.98px ){
+  .mahjong{
+    padding-top: 330px;
+    padding-bottom: 420px;
+  }
+}

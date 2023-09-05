@@ -1,0 +1,437 @@
+.game-banner {
+  &__video {
+    &:before {
+      @include psevdoElement;
+      background: linear-gradient(89.9deg, rgba(36, 59, 73, 0.61) 0.73%, rgba(36, 59, 73, 0.34) 49.36%, rgba(36, 59, 73, 0.65) 99.22%);
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+
+    video {
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
+  }
+
+  &__img-title {
+    bottom: -2%;
+    z-index: 3;
+  }
+
+  &__bg-top {
+    position: absolute;
+    z-index: 2;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.game-content {
+  z-index: 2;
+
+  p {
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  &__link-app-wrap {
+    text-align: center;
+
+    a {
+      display: inline-block;
+      margin-left: 4px;
+      img{
+        max-height: 51px;
+      }
+
+      &:first-of-type {
+        margin-left: 0;
+      }
+    }
+  }
+
+  &__bg-line {
+    background: linear-gradient(180.92deg, #ECF8FF 16.58%, #FFFFFF 62.12%);
+  }
+
+  &__article-title {
+    text-transform: capitalize;
+    color: #31496B;
+  }
+
+  &__playstore-title {
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 2.50232px;
+    text-transform: uppercase;
+    color: #0085FF;
+    text-shadow: 0 4px 0 #F74C47;
+    margin-top: 45px;
+
+    span {
+      &:before, &:after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background-image: url("/wp-content/themes/glera/assets/images/game/playstore-decoration.svg");
+        background-repeat: no-repeat;
+      }
+
+      &:before {
+        background-position: 0 6px;
+        left: -13%;
+        top: 11%;
+      }
+
+      &:after {
+        background-position: 0 71%;
+        right: -13%;
+        top: 12%;
+      }
+    }
+
+  }
+
+}
+
+.pulse-circle-right-games{
+  left: 63%;
+  top: -6%;
+  width: 1000px;
+  height: 1000px;
+}
+.title-3{
+  margin-top: 80px;
+}
+.text-wrap-pic{
+
+  align-items: center;
+  .pic{
+    max-width: 260px;
+    margin-top: 0;
+    margin-bottom: 33px;
+  }
+}
+.swiper-slide {
+  img {
+    border-radius: 35px;
+  }
+}
+
+.funny-blocks__slider1 .swiper-slide img {
+  height: 480px;
+  object-fit: cover;
+}
+
+.social-link {
+  .icon {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    background-image: url("/wp-content/themes/glera/assets/images/game/sprite-social.svg");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin-right: 9px;
+  }
+}
+
+.icon {
+  &-facebook {
+    background-position: -24px -120px;
+  }
+
+  &-insta {
+    background-position: -24px -65px;
+  }
+
+  &-twitter {
+    background-position: -24px -10px;
+  }
+}
+
+.wrap-line-fly{
+  z-index: 0;
+}
+.social-link {
+  color: #31496B !important;
+
+}
+
+.playstore {
+  background: linear-gradient(180deg, #FFF8F4 0.14%, #FCFEFF 106.09%);
+
+  .swiper-slide {
+    img {
+      width: 273px;
+      height: 436px;
+    }
+
+  }
+
+  .swiper-container {
+    width: 273px;
+    margin: 0 auto;
+  }
+
+  .swiper-slide {
+    opacity: 0;
+
+    &-next, &-active, &-prev {
+      opacity: 1;
+    }
+
+    //&-next + .swiper-slide {
+    //  opacity: 1;
+    //}
+
+    &-prev {
+
+    }
+
+    .swiper-slide-shadow-left, .swiper-slide-shadow-right {
+      display: none;
+    }
+  }
+}
+article h3 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #31496B;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 1700px) {
+  .game-banner__video .wrap, .game-content__bg-line > img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .game-content {
+    &__cat-wrap {
+      top: 30%;
+      left: -8%;
+
+      &:before {
+        @include psevdoElement;
+        width: 282px;
+        height: 282px;
+        border-radius: 50%;
+        background: rgba(185, 220, 242, 0.2);
+        left: -176%;
+        top: 21%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .game-banner__video {
+    overflow: hidden;
+    max-height: 95vh;
+    height: 100vh;
+  }
+  .game-banner__video video {
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .game-content {
+    padding-top: 94px;
+
+    &__container {
+      padding-bottom: 172px;
+    }
+
+    &__runes {
+      width: 115px;
+      height: 115px;
+      background-image: url("/wp-content/themes/glera/assets/images/game/sprite-runes.svg");
+      background-repeat: no-repeat;
+
+      &.rune1 {
+        background-position: -19px 3%;
+        left: -6%;
+        top: 37%;
+      }
+
+      &.rune2 {
+        background-position: -19px 36%;
+        right: -5%;
+        top: 16%;
+      }
+
+      &.rune3 {
+        background-position: -19px 101%;
+        left: -6%;
+        bottom: 14%;
+        background-image: unset;
+
+        .spine-player {
+          width: 250px;
+          height: 250px;
+        }
+      }
+
+      &.rune4 {
+        background-position: -19px 69%;
+        right: -5%;
+        bottom: 26%;
+      }
+    }
+
+    p {
+      max-width: 1000px;
+    }
+
+    &__link-app-wrap {
+      margin-top: 49px;
+    }
+
+    &__title {
+      margin-top: 109px;
+    }
+
+    &__bg-line {
+
+    }
+
+    &__article-title {
+      margin-top: 44px;
+      font-size: 24px;
+      line-height: 30px;
+    }
+
+    &__playstore-title {
+      font-size: 80px;
+      line-height: 87px;
+    }
+
+    &__top-bg-things {
+      top: -5%;
+    }
+  }
+  .slider-wrap__container {
+    margin-top: -38%;
+
+    .funny-blocks__slider {
+      padding-bottom: 87px;
+    }
+  }
+  .social-link__wrap {
+    display: flex;
+    margin-top: 28px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .social-link {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 20px;
+
+    &:first-of-type {
+      margin-left: 0;
+    }
+  }
+  .game-article {
+    font-size: 20px;
+    line-height: 32px;
+    max-width: 900px;
+    margin: 48px auto 0;
+
+    p {
+      margin-bottom: 38px;
+    }
+
+    img {
+      margin-top: 16px;
+    }
+
+    ol {
+      margin: 0 0 47px 0;
+      padding: 0 0 0 23px;
+      color: #6F7883;
+    }
+  }
+  .article-any-text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    ul {
+      padding-left: 0;
+      margin-left: 0;
+      max-width: 560px;
+
+      li {
+        font-size: 20px;
+        line-height: 32px;
+        color: #31496B;
+        list-style-type: none;
+      }
+    }
+
+  }
+  .playstore__slider {
+    padding-top: 75px;
+    margin-bottom: 130px;
+    .controls-news{
+      margin: 30px auto;
+      left: calc(50% - 46px);
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 92px;
+    }
+  }
+
+  .playstore__bg-top {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .game-content {
+    &__cat-wrap {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .game-article {
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 900px;
+    margin: 48px auto 0;
+
+    p {
+      margin-bottom: 38px;
+    }
+
+    img {
+      margin-top: 16px;
+    }
+
+    ol {
+      margin: 0 0 47px 0;
+      padding: 0 0 0 23px;
+      color: #6F7883;
+    }
+  }
+}
